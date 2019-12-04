@@ -18,7 +18,7 @@ top: 48px
 }
 .title--pic{
     position: absolute;
-  width:100%;
+  width:auto;
     height: 250px;
     left: 0px;
     top: 129px;
@@ -254,11 +254,42 @@ bottom: 12.5%;
     font-family: Gilroy;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
+    
     
     letter-spacing: 0.05em;
     
-    /* Blue_01 */
+  
     
     color: #1F3F68; 
+}
+.block
+{
+    position: absolute;
+    width: 540px;
+    height: 800px;
+    left: 614px;
+    top: 436px;
+    
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 15px;
+}
+.top--block
+{
+    
+    width: 185px;
+height: 30px;
+left: 670px;
+top: 492px;
+
+font-family: Gilroy;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.04em;
+color: #1F3F68;
+}
+cl{
+
 }

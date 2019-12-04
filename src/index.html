@@ -1,36 +1,166 @@
 <html>
   <head>
-    
-    <link rel = "stylesheet" type="text/css" href = "styles.css">
+    <script src = "./app.js"></script>
+    <link rel = "stylesheet" type="text/css" href = "./src/figma.scss">
   </head>
-  <body><div class="page">
+  <body class = "body"><div class="page">
            <div class="navigation">
-              <div class="pic--a"><img src="A.png"></div>
-              <div class="pic--b"><img src="stripes.png"></div>
+              <div ><img src="src/pics/A.png" class="navigation_logo"></div>
+
+
+    <div ><img src="src/pics/stripes.png" class="navigation_dropdown-logo"></div>
            </div>
            <div class="title">
-              <div class="title--pic"><img src="bground.jpg">
-               
-            </div>
-              <div class="contact">Contact Us</div>
-              <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+             
+              <div class="title-items">
+                    <div > 
+                        <div class="info-field">
+                                <div class="info-field__title">Contact Us</div>
+                                <div class="info-field__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            </div>
+              </div>
            </div>
-           <div class="girl"><img src="baba.png"></div>
-           <div class="qwer">Adress</div>
-           <div class="french">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</div>
-           <div class="mob">Phone</div>
-           <div class="pho"><img src="phone.png" width="24px" height="auto"></div>
-           <div class="numb">+62-812-7313-4321</div>
-           <div class="pho12"><img src="phone.png" width="24px" height="auto"></div>
-           <div class="numb12">+62-817-000-1234</div>
-           <div class="onlin">Online service</div>
-           <div class="glob"><img src="web.png" width="24px" height="auto"></div>
-           <div class="gm">www.afrianska.com</div>
-           <div class="mai"><img src="mail.png" width="24px" height="auto"></div>
-           <div class="ima">hello.afrian@gmail.com</div>
-           <div></div>
-
-
- </div>
-  </body>
-</html>
+           <main class="main-section">
+            <aside class="secondary-content">
+                <img src="src/pics/baba.png" class="img-aside">
+                <div class="contacts">
+                    <div class="items">
+                      <div class="items__title">ADDRESS</div>
+                      <div class="items__article">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</div>
+                    </div>
+                    <div class="items">
+                            <div class="items__title">PHONE</div>
+                            <div class="items__content">
+                                <img class="pnone-icon" src="src/pics/phone.png">
+                                <div class="content__article">+62-812-7313-4321 </div>
+                            </div>
+                            <div class="items__content">
+                                    <img class="pnone-icon" src="src/pics/phone.png">
+                                    <div class="content__article">+62-812-7313-4321 </div>
+                            </div>
+                    </div>
+                    <div class="items">
+                            <div class="items__title">ONLINE SERVICE</div>
+                            <div class="items__content">
+                                <img class="globe-icon" src="src/pics/web.png">
+                                <div class="content__article">www.afrianska.com </div>
+                            </div>
+                            <div class="items__content">
+                                    <img class="mail-icon" src="src/pics/mail.png">
+                                    <div class="content__article">hello.afrian@gmail.com</div>
+                            </div>
+                    </div>
+    
+                  
+                </div> 
+    
+            </aside>
+            <div class="input-field">
+                <div class="form-name">SEND  US MESSAGE</div>
+                <div class="enter-space">
+                    <div class="enter-space__title">Full Name</div>
+                    <input type="text" class="enter-space__name" placeholder="Your Name">
+                </div>
+                <div class="enter-space">
+                        <div class="enter-space__title">Email</div>
+                        <input type="text" class="enter-space__name" placeholder="Your Email">
+                </div>
+                <div class="enter-space">
+                        <div class="enter-space__title">Message </div>
+                        <textarea type="comment" class="enter-space__message" placeholder="Your Message"></textarea>
+                </div>
+                <div class="enter-space">
+                        <input type="button" class="enter-space__sumbit enter-space__sumbit_disign" value="SUBMIT">
+                </div>
+              </div>
+        </main>
+        <div class="map">
+            <img class="map__img" src="src/pics/mapa.png">
+        </div>
+        <footer>
+            <div class="work-team">
+                <div class="work-team__item">
+                    <div class="item__name">Intersted to work with our team?</div>
+                    <div class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                </div>
+            <div><input type="button" value="Let's Talk"class="work-team__sumbit work-team__sumbit_design"></div>
+    
+                
+    
+    
+    
+            </div>
+            <div class="info">
+               <div class="info__cols">
+                    <div class="footer-title">
+                            <div class="elipse">
+                                <img src="src/pics/logo.png" class="elipse__img">
+                            </div>
+                            <div class="afr">
+                                Afrianska
+                            </div>
+                    </div>
+                    <div class="info__group">
+                        <div class="letter">A.</div>
+                        <div class="information">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </div>
+                    <div class="info__group">
+                            <div class="letter">T.</div>
+                            <div class="information">+62-812-7313-4321</div>
+                    </div>
+                    <div class="info__group">
+                            <div class="letter">E.</div>
+                            <div class="information">hello.afrian@gmail.com</div>
+                    </div>
+        
+        
+    
+               </div>
+               <div class="info__cols-about">
+                    <div class="footer-title">
+                            <div class="title-col">
+                                About US
+                            </div>
+                    </div>
+                        <div class="information-col">About</div>
+                        <div class="information-col">What We Do</div>
+                        <div class="information-col">Project</div>
+                        <div class="information-col">How It Work With US</div>
+        
+                    
+                    
+        
+    
+               </div> 
+               <div class="info__cols-follow">
+                    <div class="footer-title">
+                            <div class="title-col">
+                                Follow US
+                            </div>
+                    </div>
+                        <div class="information-col">Instagram</div>
+                        <div class="information-col">Facebook</div>
+                        <div class="information-col">Linkedln</div>
+                        <div class="information-col">YouTube</div>
+        
+                    
+                    
+        
+    
+               </div>    
+            </div>
+            <div class="license">2019 © Afrianska. All rights reserved.</div>
+        </footer>
+    
+    
+    
+    
+                
+    </body>
+                                 
+                                
+    </html>
+                         
+     </body>
+     </html>
+     
